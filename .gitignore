@@ -4,6 +4,10 @@
 /dist/
 /tmp/
 
+#backstopjs
+html_report
+bitmaps_test
+
 # dependencies
 /bower_components/
 /node_modules/

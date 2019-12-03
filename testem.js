@@ -1,6 +1,12 @@
 module.exports = {
   test_page: 'tests/index.html?hidepassed',
   disable_watching: true,
+  proxies: {
+    '/backstop': {
+      target: 'http://localhost:3000',
+      secure: false,
+    },
+  },
   launch_in_ci: [
     'Chrome'
   ],
